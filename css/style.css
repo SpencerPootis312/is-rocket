@@ -2,3 +2,16 @@ body {
 background-color: grey;
 
 }
+.cool {
+	visibility:;
+	display: none;
+width: 100px;
+height: 100px;
+background-color: green;
+transition: background-color 1000ms;
+
+}
+.cool.red {
+	display: block;
+background-color: red;	
+}
